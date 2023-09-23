@@ -1,0 +1,45 @@
+** PHP-তে Type Hinting  হলো এমন  একটি বৈশিষ্ট্য যা function parameter এবং return মানগুলির data types  নির্দিষ্ট করতে দেয়।
+
+**Different types you can use for type hinting in PHP:-
+
+1.Scalar Types:
+--------------
+    int: Integer
+    float: Floating-point number
+    string: String
+    bool: Boolean
+
+2.Compound Types:
+-----------------
+    array: Array
+    iterable: Any iterable data structure (array or Traversable object)
+
+3.Callable Types:
+-----------------
+    callable: Any callable entity, such as functions, methods, closures, or invokable objects
+
+4.Class Types:
+--------------
+    ClassName: You can use a class name as a type hint to require an object of that class or its subclasses.
+
+5.Interface Types:
+-----------------
+    InterfaceName 
+6.Nullable Types ():
+-------------------
+?Type: This allows you to specify that a parameter can be of the specified type or null.
+7.Union Types ():
+-----------------
+Type1 | Type2 | ...: This allows you to specify that a parameter can be one of the listed types.
+
+8.Static Types ():
+----------------
+9.static: This refers to the class that the method is called on, which can be useful in late static binding scenarios.
+Mixed Type:
+-----------
+10.mixed: Represents a value that could be of any type.
+11.Never Type ():
+-------------
+never: Represents a value that should never be returned, usually used for signaling unreachable code.
+
+

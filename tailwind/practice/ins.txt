@@ -1,0 +1,14 @@
+npm init -y
+npm install -D tailwindcss postcss autoprefixer vite
+npx tailwindcss init -p
+/......
+pakage.json 
+"scripts": {
+    "dev":"vite"
+  },
+
+Css/main.css  
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
