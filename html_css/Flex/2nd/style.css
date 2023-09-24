@@ -1,0 +1,46 @@
+.card {
+    width: 800px;
+    height: 500px;
+    background-color: black;
+    margin: 50px auto;
+    border: 3px solid salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: ;
+    max-width: 300px; /* Adjust the container's max-width as needed */
+}
+
+.item {
+    color: aliceblue;
+    width: 100px; /* Adjust the width of the items */
+    height: 80px;
+    border: 2px solid wheat;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.one {
+    background-color: aqua;
+}
+
+.two {
+    background-color: green;
+}
+
+.three {
+    background-color: yellowgreen;
+}
+
+.four {
+    background-color: blue;
+}
