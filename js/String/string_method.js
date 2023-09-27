@@ -15,4 +15,4 @@ console.log(d);
 // console.log(z);
 // console.log(j);
 // console.log("      jjhsk    ".trim());
-// console.log(j.split(" "));
+console.log(j.split(" "));

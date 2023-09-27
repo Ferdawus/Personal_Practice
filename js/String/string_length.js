@@ -9,4 +9,4 @@ while (true) {
 }
 console.log(length);
 console.log(str.length);
-console.log(str.lastIndexOf());
+// console.log(str.lastIndexOf());
