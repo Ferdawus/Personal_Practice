@@ -1,0 +1,44 @@
+.body{
+    background-color: black;
+    width: 1000px;
+    height: 600px;
+    margin: 10px auto;
+}
+.container {
+    display: grid;
+    /* grid-template-columns: 100px 100px; */
+    /* grid-template-rows: 300px 300px; */
+    /* grid-row-gap: 4px;
+    grid-column-gap: 3px; */
+    /* grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 3fr; */
+    /* grid-template: 2fr 3fr / 1fr 2fr; */
+    grid-template: repeat(3,1fr) /  repeat(3,1fr);
+    grid-gap:4px;
+
+}
+.item{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: hotpink;
+}
+.three{
+    background-color: wheat;
+}
+.four{
+    background-color: palegreen;
+}
+.five{
+background-color: blue;
+}
+.six{
+    background-color: blueviolet;
+}

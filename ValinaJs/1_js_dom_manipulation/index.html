@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoM</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body>
+    <div id="showName"></div>
+    <div class="form_area">
+
+        <form action="" class="custom_form">
+            <h4 class="heading">JS DOM FORM</h4>
+            <div class="form_group" style="margin-top: 20px;">
+                <label class="form_label" for="name">Name</label>
+                <input type="text" class="form_input" id="name">
+            </div>
+            <div class="form_group">
+                <label class="form_label" for="classroll">Class Roll</label>
+                <input type="text" class="form_input" id="classRoll">
+            </div>
+            <div class="form_group">
+                <label class="form_label" for="boardroll">Board Roll</label>
+                <input type="text" class="form_input" id="boardRoll">
+            </div>
+            <div class="form_group">
+                <label class="form_label" for="phone">Phone</label>
+                <input type="text" class="form_input" id="phone">
+            </div>
+            <div class="form_group">
+                <label class="form_label" for="address">Address</label>
+                <input type="text" class="form_input" id="address">
+            </div>
+            <div class="btn_width">
+                <button onclick="resetStudent()" type="button" class="btn" id="btn-reset">Reset Button</button>
+                <button onclick="addStudent()" type="button" class="btn" id="btn-add">Add New Student</button>
+            </div>
+        </form>
+    </div>
+
+    <table class="studentList">
+        <thead>
+            <tr>
+                <th width="4%">Serial</th>
+                <th width="10%">Name</th>
+                <th width="10%">Class Roll</th>
+                <th width="10%">Board Roll</th>
+                <th width="10%">Phone</th>
+                <th width="10%">Address</th>
+            </tr>
+        </thead>
+        <tbody id="studentList"></tbody>
+    </table>
+    <script src="./script.js"></script>
+</body>
+
+</html>
