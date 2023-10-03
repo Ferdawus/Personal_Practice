@@ -1,8 +1,8 @@
 .body{
-    background-color: black;
-    width: 1000px;
+    /* background-color: black; */
+    /* width: 1000px;
     height: 600px;
-    margin: 10px auto;
+    margin: 10px auto; */
 }
 .container {
     display: grid;
